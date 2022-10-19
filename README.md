@@ -1,2 +1,1 @@
-# WebDev
-This is a repository made during learning web development
+<a href="https://powerr-fitness.netlify.app/"> Click here to redirect to Gym Page<a/>

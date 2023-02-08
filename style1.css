@@ -1,0 +1,15 @@
+.chopa
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+}
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('images/2481683.webp');
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Baloo Bhai 2', cursive;
+}

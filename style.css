@@ -15,7 +15,7 @@ body{
 {
     color: white;
 }
-.container ::placeholder:hover
+.search ::placeholder:hover
 {
     color: black;
 }

@@ -1,0 +1,136 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('images/2481683.webp');
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.container{
+    position: sticky;
+    /* background-color: black; */
+    top: 10px;
+}
+.container ::placeholder 
+{
+    color: white;
+}
+.search ::placeholder:hover
+{
+    color: black;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    /* padding: 2px; */
+    display: inline-block;
+    /* border: 2px solid white; */
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+#logo img{
+    width: 100%;
+    height: 50%;
+    filter: invert(100%);
+}
+#list{
+    /* display: block; */
+    width: 40%;
+    margin: 10px auto;
+    /* border: 2px solid white; */
+    border-radius: 10px;
+}
+.nav{
+    display: inline-block;
+}
+.nav li{
+    display: inline-block;
+}
+.nav li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+}
+input[type=submit] {
+    margin: 10px;
+    padding: 4px;
+    width: 300px;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    height: 30px; 
+}
+input[type=reset] {
+    margin: 10px;
+    padding: 4px;
+    width: 300px;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    height: 30px; 
+}
+input[type=submit] :hover{
+    background-color: green;
+}
+input[type=reset] :hover{
+    background-color: brown;
+}
+.nav li a:hover{
+    text-decoration: underline;
+    color: rgb(196, 189, 189);
+}
+#searchbox{
+    position: absolute;
+    top: 1px;
+    right: 8px;
+    margin: 0px;
+    padding: 10px;
+    display: inline-block;
+    /* border: 2px solid white; */
+}
+.search{
+    padding: 13px;
+    margin: 0px;
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+.search:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.appl{
+    border: 2px solid white;width: 400px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 30px;
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    display: inline-block;
+    text-align: center;
+
+}
+.appl input{
+    margin: 5px;
+    padding: 4px;
+    text-align: center;
+    width: 280px;
+    
+}
+.appl input:hover{
+    background-color: antiquewhite;
+}
+.chopa input:hover
+{
+    color: black;
+}
